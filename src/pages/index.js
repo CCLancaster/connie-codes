@@ -4,23 +4,27 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+// import EatVite from '../assets/images/EatVite.mp4';
+import pic1 from '../assets/images/Connie_Icon.jpeg'
+import pic2 from '../assets/images/Sanity-Profile-Page-Sml.png';
+import pic3 from '../assets/images/Dungeon-of-Doom.png';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
+        <img src={pic1} className="profilepic"/>
+        < br/>
+        < br/>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
-            <Scroll type="id" element="one">
+            {/* <Scroll type="id" element="one">
               <a href="/#" className="button primary">
                 Explore
               </a>
-            </Scroll>
+            </Scroll> */}
           </li>
         </ul>
       </div>
@@ -36,14 +40,12 @@ const IndexPage = () => (
         <header className="major">
           <h2>
             About
-            {/* <br />
-            eget augue amet aliquet nisl cep donec */}
           </h2>
           <p>
           I am a results-oriented Web Developer, driven to succeed with a passion for team-building and rising to the occasion.
             <br />
             <br />
-            I pride myself on my ability to consistently build positive rapport with clients, coworkers and external teams. I bring strong problem-solving and communication skills to my work, honed through professional experience working on an international company's digital marketing team as well as my academic training in international security. 
+            I pride myself on my ability to consistently build positive rapport with clients, coworkers and external teams. I bring strong problem-solving and communication skills to my work, honed through professional experience as well as my academic training. 
           </p>
         </header>
         <ul className="icons major">
@@ -65,22 +67,42 @@ const IndexPage = () => (
         </ul>
       </div>
     </section>
+    <section id="cta" className="wrapper style4">
+      <div className="inner">
+        <header className="major">
+          <h2>Skills</h2>
+          <p>
+          •	Programming Languages: HTML, JavaScript, Python, 
+          < br/>
+          •	Web Development: React, Node.js, Express, Sequelize, EJS, Mongoose, oAuth, JWT, Axios, Bcrypt, Passport, RESTful APIs, Flask
+          < br/>
+          •	Data: SQL, PostgreSQLl, SQLAlchemy, MongoDB, Jupyter Notebooks, 
+          < br/>
+          •	Tech Stacks: GitHub, VSCode, Postman, Postgres, Slack, Heroku, Salesforce
+          </p>
 
+        </header>
+      </div>
+    </section>
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src='https://media.giphy.com/media/j0Aaxfj8jK6dVROK6V/giphy.gif' alt="EatVite gif" />
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+            EatVite
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          A web app, developed by team Quarantined Devs, to invite your friends to dinner (and help select the restaurant).
+          < br />
+          Tech: HTML/CSS, Javascript, MongoDB, Mongoose, Express, Node.js, RESTful routing, React, API calls, Auth/Login
+          <br />
+          <a href=" ">See it Here</a> | <a href="https://github.com/CCLancaster/EatVite">See the Code</a>
           </p>
+        </div>
+        <div>
+          <br />
         </div>
       </section>
       <section className="spotlight">
@@ -89,13 +111,14 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
+            Sanity
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            A web page designed to help us all de-stress from a given day, problem or life emergency and hold onto a little sanity. 
+            <br />
+            Tech: HTML, CSS, Javascript, RESTful Routing, PSQL, Database Manipulation, API Calls, Auth/Login, Basic Password Hashing
+          <br />
+          <a href="https://montys-sanity.herokuapp.com/">See it Here</a> | <a href="https://github.com/CCLancaster/Sanity">See the Code</a>
           </p>
         </div>
       </section>
@@ -105,14 +128,18 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
+            Dungeon of Doom
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            A Game(!): "Welcome intrepid adventurer. Turns out you're not very good at this and have managed to trap yourself in a room that is slowly growing smaller...ancient earth temples and all that. Happily, you thought to bring your handy laser gun. Blast the blocks in front of the door to escape certain doom. Or you know...don't. Good luck!"
+            <br />
+            Tech: HTML, CSS, Javascript, Canvas, Game Logic
+          <br />
+          <a href=" ">Play Here</a> | <a href="https://github.com/CCLancaster/Dungeon-of-Doom">See the Code</a>
           </p>
+        </div>
+        <div>
+          <br />
         </div>
       </section>
     </section>
@@ -120,57 +147,30 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2></h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
+          <li className="icon solid fa-paper-plane">
+            <h3>Let's Connect!</h3>
+            <p>Paruse my profile on <a href="www.linkedin.com/in/cclancaster" >LinkedIn</a></p>
           </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
+          <li className="icon solid fa-envelope">
+            <h3>Email</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              connieclancaster@gmail.com
             </p>
           </li>
           <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+            <h3>GitHub</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              See my work on <a href="www.github.com/cclancaster">GitHub</a>!
             </p>
           </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
+          <li className="icon solid fa-file-pdf">
+            <h3>My <a href="../assets/Connie Lancaster Web Developer One Page.pdf" target="noopener" >Resume</a></h3>
           </li>
         </ul>
       </div>
@@ -179,21 +179,20 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Let's Chat</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            The world is a little sideways at the moment, but let's connect so I can tell you how I can be an asset to your team.
           </p>
         </header>
         <ul className="actions stacked">
           <li>
             <a href="/#" className="button fit primary">
-              Activate
+              Email
             </a>
           </li>
           <li>
             <a href="/#" className="button fit">
-              Learn More
+              From the Top
             </a>
           </li>
         </ul>

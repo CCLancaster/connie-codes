@@ -144,6 +144,12 @@
 			letter-spacing: _size(letter-spacing) * 0.5;
 		}
 	}
+	
+	.profilepic {
+		width: 300px;
+		height: 300px;
+		border-radius: 50px;
+	}
 
 	a {
 		@include vendor('transition', ('color #{_duration(transitions)} ease', 'border-bottom-color #{_duration(transitions)} ease'));
