@@ -9,7 +9,7 @@ const IndexPage = () => <Layout>
 		<header>
 			<h2>Resume</h2>
             <div>
-            <embed src={resume} type="application/pdf" width="75%" height="1000px"></embed>
+            <embed src="https://github.com/CCLancaster/connie-codes/blob/master/src/assets/Connie-Lancaster-Resume.pdf" type="application/pdf" width="75%" height="1000px"></embed>
         </div>
 		</header>
         <body>

@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Spectral', // <title>
-  manifestName: 'Spectral',
+  siteTitle: 'Connie Lancaster', // <title>
+  manifestName: 'Spectral Portfolio',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',

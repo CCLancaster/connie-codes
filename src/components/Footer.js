@@ -16,7 +16,7 @@ export default function Footer() {
         })}
       </ul>
       <ul>
-        <li>Made with :heart: by <a href="www.linkedin.com/in/cclancaster" className="copyright">Connie Lancaster</a></li>
+        <p>Made with :corazón: by <a href="www.linkedin.com/in/cclancaster" className="copyright">Connie Lancaster</a></p>
       </ul>
       <ul className="copyright">
         <li>&copy; Spectral</li>
