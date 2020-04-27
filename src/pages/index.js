@@ -84,6 +84,15 @@ const IndexPage = () => (
         </header>
       </div>
     </section>
+    <section id="one" className="wrapper style1 special">
+      <div className="inner">
+        <header className="major">
+          <h2>
+            Projects
+          </h2>
+        </header>
+      </div>
+    </section>
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
@@ -98,7 +107,7 @@ const IndexPage = () => (
           < br />
           Tech: HTML/CSS, Javascript, MongoDB, Mongoose, Express, Node.js, RESTful routing, React, API calls, Auth/Login
           <br />
-          <a href=" ">See it Here</a> | <a href="https://github.com/CCLancaster/EatVite">See the Code</a>
+          <a href="https://git.heroku.com/eatvite.git">See it Here</a> | <a href="https://github.com/CCLancaster/EatVite">See the Code</a>
           </p>
         </div>
         <div>
@@ -135,7 +144,7 @@ const IndexPage = () => (
             <br />
             Tech: HTML, CSS, Javascript, Canvas, Game Logic
           <br />
-          <a href=" ">Play Here</a> | <a href="https://github.com/CCLancaster/Dungeon-of-Doom">See the Code</a>
+          <a href="https://github.com/CCLancaster/Dungeon-of-Doom">See the Code</a>
           </p>
         </div>
         <div>
@@ -170,7 +179,7 @@ const IndexPage = () => (
             </p>
           </li>
           <li className="icon solid fa-file-pdf">
-            <h3>My <a href="../assets/Connie Lancaster Web Developer One Page.pdf" target="noopener" >Resume</a></h3>
+            <h3>My <a href="https://drive.google.com/file/d/1cwgRgQ_NFX7nHvBDZMlr4H52ZIDEhIDO/view?usp=sharing" target='noopener' >Resume</a></h3>
           </li>
         </ul>
       </div>
@@ -186,7 +195,7 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="/#" className="button fit primary">
+            <a href="mailto:connieclancaster@gmail.com" className="button fit primary">
               Email
             </a>
           </li>
