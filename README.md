@@ -1,16 +1,15 @@
-# Welcome to Connie Codes
-## a portfolio
-----------
-
-![Screenshot](./src/assets/img/Portfolio-Screenshot.png)
+# Welcome to Connie-Codes
+### a portfolio
 
 See my live portfolio [here](http://www.conniecodes.com/)
 
+![Screenshot](./src/assets/img/Portfolio-Screenshot.png)
+
+
 ----------
 
-
 For more information on the Gatsby template I used, see below:
-### gatsby-starter-spectral
+## gatsby-starter-spectral
 
 Gatsby.js V2 starter template based on Spectral by HTML5 UP
 
