@@ -1,5 +1,4 @@
 # Welcome to Connie-Codes
-### a portfolio
 
 See my live portfolio [here](http://www.conniecodes.com/)
 
