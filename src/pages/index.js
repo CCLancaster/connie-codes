@@ -55,7 +55,7 @@ const IndexPage = () => (
               <span className="label">Resume</span>
             </span>
           </a></li>
-          <li><a href="mailto:connieclancaster@gmail.com" >
+          <li><a href="#contact" >
             <span className="icon fa-address-card major style2">
               <span className="label">Email</span>
             </span>
