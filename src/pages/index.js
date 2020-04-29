@@ -171,7 +171,7 @@ const IndexPage = () => (
           <li className="icon solid fa-paper-plane">
             
             <h3>LinkedIn</h3>
-            <p>Paruse my <a href="www.linkedin.com/in/cclancaster" target="_blank" rel="noopener noreferrer" >profile</a>.</p>
+            <p>Paruse my <a href="http://www.linkedin.com/in/cclancaster" target="_blank" rel="noopener noreferrer" >profile</a>.</p>
           </li>
           <li className="icon solid fa-envelope">
             <h3>Email</h3>
@@ -182,11 +182,11 @@ const IndexPage = () => (
           <li className="icon solid fa-code">
             <h3>GitHub</h3>
             <p>
-              See my work on <a href="www.github.com/cclancaster" target="_blank" rel="noopener noreferrer" >GitHub</a>!
+              See my work on <a href="https://www.github.com/cclancaster" target="_blank" rel="noopener noreferrer" >GitHub</a>!
             </p>
           </li>
           <li className="icon solid fa-file-pdf">
-            <h3><a href="https://drive.google.com/file/d/1cwgRgQ_NFX7nHvBDZMlr4H52ZIDEhIDO/view?usp=sharing" target="_blank" rel="noopener noreferrer" >Resume</a></h3>
+            <h3><a href={resume} target="_blank" rel="noopener noreferrer" >Resume</a></h3>
             <p>You know you're curious. Go ahead, check it out!</p>
           </li>
         </ul>
