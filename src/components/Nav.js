@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import resume from '../assets/Connie-Lancster-Resume.pdf';
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
@@ -22,7 +23,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/Resume">Resume</Link>
+                <Link to={resume}>Resume</Link>
               </li>
               <li>
                 <Link to="/#projects">Projects</ Link>
