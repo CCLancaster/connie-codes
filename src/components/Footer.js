@@ -8,7 +8,7 @@ export default function Footer() {
           const { style, icon, name, url } = social;
           return (
             <li key={url}>
-              <a href={url} className={`icon ${style} ${icon}`}>
+              <a href={url} target="_blank" rel="noopener noreferrer" className={`icon ${style} ${icon}`}>
                 <span className="label">{name}</span>
               </a>
             </li>
@@ -16,12 +16,12 @@ export default function Footer() {
         })}
       </ul>
       <ul>
-        <p>Made with :corazón: by <a href="www.linkedin.com/in/cclancaster" className="copyright">Connie Lancaster</a></p>
+        <p>Made with :corazón: by <a href="www.linkedin.com/in/cclancaster" target="_blank" rel="noopener noreferrer" className="copyright">Connie Lancaster</a></p>
       </ul>
       <ul className="copyright">
         <li>&copy; Spectral</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          Design: <a href="http://html5up.net" target="_blank" rel="noopener noreferrer" >HTML5 UP</a>
         </li>
       </ul>
     </footer>
