@@ -29,7 +29,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/#contact">Contact</Link>
               </li>
               <li>
-                <Link to={resume}>Resume</Link>
+                <Link to={resume} target="_blank" rel="noopener noreferrer" >Resume</Link>
               </li>
             </ul>
             <a
