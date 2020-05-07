@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import resume from '../assets/Connie-Lancaster-Resume.pdf';
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
@@ -27,9 +26,6 @@ export default function Nav({ onMenuToggle = () => {} }) {
               </li>
               <li>
                 <Link to="/#contact">Contact</Link>
-              </li>
-              <li>
-                <Link to={resume} target="_blank" rel="noopener noreferrer" >Resume</Link>
               </li>
             </ul>
             <a
